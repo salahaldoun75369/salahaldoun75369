@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+.informanion__title {
+   /* margin: 36px 0 12px 0px;*/
+   font-family: "Open Sans", sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 1.33;
+   color: #15a98c;
+}
+.story__memorial {
+   /*margin: 3px 0 0 0px;*/
+   font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+   font-weight: 780;
+   line-height: 2.63;
+   color: #ffffff;
+}
+.story__head {
+   /*margin: 81px 0 0 1px;*/
+   font-family: "Open Sans", sans-serif;
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 0.88;
+   color: #333333;
+}
+.story__bacement {
+   /*margin: 44px 0 16px -6px;*/
+   font-family: "Open Sans", sans-serif;
+   font-size: 36px;
+   font-weight: 400;
+   line-height: 1.17;
+   color: #000000;
+}
+.films__head {
+   /* margin: 7px 0px;*/
+   font-family: "Open Sans";
+   font-size: 22px;
+   font-weight: bold;
+   line-height: 1.45;
+   color: #333333;
+}
+.information__element h2 {
+   padding: 10px 0;
+   font-family: "Open Sans";
+   margin: 4px 0 0 -2px;
+   font-size: 22px;
+   font-weight: bold;
+   line-height: 1.45;
+   color: #333333;
+}
+.information__element p {
+   margin: 9px 0;
+   font-family: "Georgia";
+   font-size: 16px;
+   line-height: 1.75;
+   color: #555555;
+}
+.films__head {
+   padding: 33px 0;
+   font-family: "Open Sans";
+   font-size: 36px;
+   line-height: 1.17;
+   color: #333333;
+}
+.you__head {
+   display: flex;
+   padding: 45px;
+   width: 700px;
+   margin: 0 0 0 -130px;
+   font-family: "Open Sans";
+   font-size: 36px;
+   font-weight: 300;
+   line-height: 1.17;
+   color: #333333;
+}
+.you__sex option {
+   background: #555555;
+
+   font-family: "Open Sans";
+   font-size: 18px;
+
+   color: #333333;
+}
+.you__question {
+   display: block;
+   margin: 27px 0 0 0px;
+
+   font-family: "Open Sans";
+   font-size: 18px;
+}
+.footer {
+   display: block;
+   font-family: Georgia;
+   font-size: 18px;
+   width: 100%;
+   padding: 17px;
+   line-height: 2;
+   text-align: left;
+   color: #555555;
+   background: rgb(250, 250, 250);
+}
+@media (min-width: 479.98px) {
+   .information__element h2 {
+      padding: 10px 0;
+      font-family: "Open Sans";
+      margin: 4px 0 0 -2px;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1.45;
+      color: #333333;
+   }
+   .information__element p {
+      margin: 9px 0;
+      font-family: "Georgia";
+      font-size: 16px;
+      line-height: 1.75;
+      color: #555555;
+   }
+   .films__head {
+      padding: 33px 0;
+      font-family: "Open Sans";
+      font-size: 36px;
+      line-height: 1.17;
+      color: #333333;
+   }
+}
+@media (max-width: 479.98px) {
+   .compas ul {
+      display: flex;
+   }
+   .compas ul li {
+      margin: auto;
+   }
+   .compas__link {
+      padding: auto;
+      text-decoration: none;
+   }
+   .compas ul li :hover {
+      background-color: darkslategrey;
+   }
+   .story {
+      display: block;
+   }
+   .you__conteiner {
+      padding: 0 0 0 15px;
+   }
+   .story__conteiner {
+   }
+   .container {
+   }
+   .story {
+   }
+   .story__citate {
+   }
+   .story__memorial {
+   }
+   .story__head {
+   }
+   .story__store {
+   }
+   .story__bacement {
+   }
+   .story__buton {
+   }
+   .books {
+   }
+   .books__image {
+   }
+   .books__information {
+      width: 100%;
+   }
+   .information {
+   }
+   .informanion__title {
+   }
+   .informanion__list {
+   }
+}
+@media (max-width: 767.98px) {
+}
+@media (min-width: 1200px) {
+   .films-container {
+      margin: 0 auto;
+      width: 1200px;
+   }
+}
