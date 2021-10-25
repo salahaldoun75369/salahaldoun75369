@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <title>document</title>
+   <meta charset="UTF-8">
+</head>
+
+<body>
+   <canvas id="stan" class="stan" width="125px" height="200px">
+      <script>
+         let stan = document.getElementById('stan');
+         let contextStan = stan.getContext('2d');
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.strokeStyle = '#3972c4';
+         contextStan.fillStyle = '#3972c4';
+         contextStan.moveTo(28, 181);
+         contextStan.lineTo(108, 181);
+         contextStan.lineTo(108, 194);
+         contextStan.lineTo(28, 194);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.moveTo(23, 180);
+         contextStan.quadraticCurveTo(60, 190, 108, 180);
+         contextStan.lineTo(118, 165);
+         contextStan.quadraticCurveTo(117, 150, 103, 128);
+         contextStan.lineTo(27, 128);
+         contextStan.quadraticCurveTo(13, 150, 12, 165);
+         contextStan.lineTo(24, 176);
+         contextStan.closePath();
+         contextStan.strokeStyle = '#d57162';
+         contextStan.fillStyle = '#d57162';
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.arc(66, 100, 50, 0.776 * Math.PI, 2.2 * Math.PI, true);
+         contextStan.strokeStyle = '#fd2042';
+         contextStan.fillStyle = '#fd2042';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+
+         contextStan.beginPath();
+         contextStan.strokeStyle = '#d16f60';
+         contextStan.fillStyle = '#d16f60';
+         contextStan.moveTo(68, 144);
+         contextStan.lineTo(64, 144);
+         contextStan.lineTo(66, 147);
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+
+         contextStan.beginPath();
+         contextStan.moveTo(66, 148);
+         contextStan.lineTo(70, 152);
+         contextStan.lineTo(62, 152);
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 2;
+         contextStan.strokeStyle = '#67342e';
+         contextStan.fillStyle = '#67342e';
+         contextStan.moveTo(66, 149);
+         contextStan.lineTo(65, 185);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.arc(61, 153, 1, 0 * Math.PI, 2 * Math.PI);
+         contextStan.strokeStyle = 'black';
+         contextStan.fillStyle = '#black';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.arc(61, 165, 1, 0 * Math.PI, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.arc(60, 177, 1, 0 * Math.PI, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.ellipse(45, 196, 25, 4, 1 * Math.PI, 1 * Math.PI, 2 * Math.PI, true);
+         contextStan.strokeStyle = '#292c3a';
+         contextStan.fillStyle = '#292c3a';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.ellipse(89, 196, 25, 4, 1 * Math.PI, 1 * Math.PI, 2 * Math.PI, true);
+         contextStan.fill();
+         contextStan.stroke();
+
+
+
+         ////////////голова
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.arc(64, 85, 58, 0 * Math.PI, 2 * Math.PI);
+         contextStan.strokeStyle = '#ffe9c0';
+         contextStan.fillStyle = '#ffe9c0';
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.arc(64, 82, 58, 1.91 * Math.PI, 1.07 * Math.PI, true);
+         contextStan.strokeStyle = '#3d76c7';
+         contextStan.fillStyle = '#3d76c7';
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 12;
+         contextStan.moveTo(123, 73);
+         contextStan.bezierCurveTo(60, 57, 20, 70, 3, 77);
+         contextStan.strokeStyle = '#ff1e40';
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 3;
+         contextStan.moveTo(47, 20);
+         contextStan.lineTo(70, 30);
+         contextStan.lineCap = "round";
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(65, 13);
+         contextStan.lineTo(53, 35);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(55, 13);
+         contextStan.lineTo(61, 35);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(50, 15);
+         contextStan.lineTo(66, 33);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(70, 16);
+         contextStan.lineTo(48, 33);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(60, 12);
+         contextStan.lineTo(57, 35);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(46, 25);
+         contextStan.lineTo(72, 25);
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.moveTo(47, 29);
+         contextStan.lineTo(72, 20);
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 2;
+         contextStan.strokeStyle = '#892334';
+         contextStan.moveTo(25, 78);
+         contextStan.lineTo(37, 66);
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(98, 75);
+         contextStan.lineTo(85, 66);
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.strokeStyle = 'white';
+         contextStan.ellipse(81, 91, 16, 14, Math.PI / 4, 0, 2 * Math.PI);
+         contextStan.fillStyle = 'white';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.ellipse(50, 92, 16, 14, 1.7 * Math.PI, 0, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.arc(54, 92, 1, 0 * Math.PI, 2 * Math.PI, true);
+         contextStan.strokeStyle = 'black';
+         contextStan.fillStyle = 'black';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.arc(74, 92, 1, 0 * Math.PI, 2 * Math.PI, true);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 1;
+         contextStan.strokeStyle = 'black';
+         contextStan.fillStyle = 'black';
+         contextStan.moveTo(53, 122);
+         contextStan.lineTo(83, 122);
+         contextStan.lineTo(78, 127);
+         contextStan.lineTo(72, 130);
+         contextStan.lineTo(68, 133);
+         contextStan.lineTo(56, 126);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+
+
+         contextStan.beginPath();
+         contextStan.strokeStyle = 'white';
+         contextStan.fillStyle = 'white';
+         contextStan.moveTo(55, 123);
+         contextStan.lineTo(60, 123);
+         contextStan.lineTo(60, 126);
+         contextStan.lineTo(56, 125);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(62, 123);
+         contextStan.lineTo(67, 123);
+         contextStan.lineTo(67, 126);
+         contextStan.lineTo(63, 126);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(69, 123);
+         contextStan.lineTo(75, 123);
+         contextStan.lineTo(72, 126);
+         contextStan.lineTo(69, 126);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.moveTo(77, 123);
+         contextStan.lineTo(81, 123);
+         contextStan.lineTo(75, 126);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+
+
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 2;
+         contextStan.strokeStyle = 'white';
+         contextStan.fillStyle = 'white';
+         contextStan.moveTo(106, 129);
+         contextStan.lineTo(108, 132);
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+
+
+         contextStan.beginPath();
+         contextStan.arc(19, 169, 8.5, 0 * Math.PI, 2 * Math.PI);
+         contextStan.strokeStyle = '#fa2241';
+         contextStan.fillStyle = '#fa2241';
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.arc(111, 171, 8.5, 0 * Math.PI, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.lineWidth = 0.13;
+         contextStan.strokeStyle = 'black';
+         contextStan.arc(104, 169, 4, 0 * Math.PI, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+         contextStan.beginPath();
+         contextStan.arc(25, 166, 4, 0 * Math.PI, 2 * Math.PI);
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.strokeStyle = 'black';
+         contextStan.fillStyle = 'black';
+         contextStan.moveTo(26, 163);
+         contextStan.lineTo(29, 152);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+
+         contextStan.beginPath();
+         contextStan.moveTo(103, 165);
+         contextStan.lineTo(100, 153);
+         contextStan.closePath();
+         contextStan.fill();
+         contextStan.stroke();
+      </script>
+   </canvas>
+   <canvas id="kyle" width="150px" height="200px">
+      <script>
+         let kyle = document.getElementById('kyle');
+         let contextKyle = kyle.getContext('2d');
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.strokeStyle = '#20807d';
+         contextKyle.fillStyle = '#20807d';
+         contextKyle.moveTo(36, 175); //28, 181
+         contextKyle.lineTo(113, 175);
+         contextKyle.lineTo(113, 193);
+         contextKyle.lineTo(36, 193);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.moveTo(33, 175);
+         contextKyle.quadraticCurveTo(65, 187, 111, 180);
+         contextKyle.lineTo(128, 163);
+         contextKyle.quadraticCurveTo(123, 135, 113, 125);
+         contextKyle.lineTo(75, 138);
+         contextKyle.lineTo(33, 125);
+         contextKyle.quadraticCurveTo(21, 140, 17, 162);
+         contextKyle.closePath();
+
+         contextKyle.strokeStyle = '#fc5f15';
+         contextKyle.fillStyle = '#fc5f15';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.moveTo(34, 125);
+         contextKyle.quadraticCurveTo(77, 161, 115, 125);
+         contextKyle.lineTo(77, 120);
+         contextKyle.strokeStyle = '#0aa951';
+         contextKyle.fillStyle = '#0aa951';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.moveTo(76, 142.1);
+         contextKyle.lineTo(76, 183);
+         contextKyle.strokeStyle = 'black';
+         contextKyle.fillStyle = 'black';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 0.7;
+         contextKyle.moveTo(49, 149);
+         contextKyle.lineTo(65, 149);
+         contextKyle.lineTo(57, 158);
+         contextKyle.lineTo(49, 149);
+         contextKyle.lineTo(49, 169);
+         contextKyle.lineTo(65, 169);
+         contextKyle.lineTo(65, 149);
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 0.7;
+         contextKyle.moveTo(87, 149); // 49 149
+         contextKyle.lineTo(103, 149);
+         contextKyle.lineTo(95, 158);
+         contextKyle.lineTo(87, 149);
+         contextKyle.lineTo(87, 168);
+         contextKyle.lineTo(103, 168);
+         contextKyle.lineTo(103, 149);
+         contextKyle.stroke();
+
+
+         ////////////голова
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.arc(74.5, 79, 59, 0 * Math.PI, 2 * Math.PI);
+         contextKyle.strokeStyle = '#ffe9c0';
+         contextKyle.fillStyle = '#ffe9c0';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.strokeStyle = 'white';
+         contextKyle.ellipse(92, 83, 18, 16, 1.2 * Math.PI / 4, 0, 2 * Math.PI);
+         contextKyle.fillStyle = 'white';
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.ellipse(58, 83, 18, 16, 1.7 * Math.PI, 0, 2 * Math.PI);
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 2;
+         contextKyle.arc(64, 84, 1, 0 * Math.PI, 2 * Math.PI, true);
+         contextKyle.strokeStyle = 'black';
+         contextKyle.fillStyle = 'black';
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.arc(83, 84, 1, 0 * Math.PI, 2 * Math.PI, true);
+         contextKyle.fill();
+         contextKyle.stroke();
+
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.strokeStyle = 'black';
+         contextKyle.fillStyle = 'black';
+         contextKyle.moveTo(60, 116);
+         contextKyle.lineTo(94, 116);
+         contextKyle.lineTo(85, 124);
+         contextKyle.lineTo(77, 130);
+         contextKyle.lineTo(64, 121);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+
+         contextKyle.beginPath();
+         contextKyle.strokeStyle = 'white';
+         contextKyle.fillStyle = 'white';
+         contextKyle.moveTo(62, 117); // 55 , 123
+         contextKyle.lineTo(69, 117);
+         contextKyle.lineTo(68, 120);
+         contextKyle.lineTo(63, 119);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.moveTo(71, 117);
+         contextKyle.lineTo(77, 117);
+         contextKyle.lineTo(77, 121);
+         contextKyle.lineTo(71, 121);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.moveTo(79, 117);
+         contextKyle.lineTo(85, 117);
+         contextKyle.lineTo(83, 121);
+         contextKyle.lineTo(79, 121);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.moveTo(87, 117);
+         contextKyle.lineTo(91, 117);
+         contextKyle.lineTo(85, 121);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+
+
+
+
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.ellipse(74, 192, 44, 1.4, 1 * Math.PI, 0 * Math.PI, 2 * Math.PI, true);
+         contextKyle.strokeStyle = '#292c3a';
+         contextKyle.fillStyle = '#292c3a';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.arc(25, 168, 9, 0 * Math.PI, 2 * Math.PI);
+         contextKyle.strokeStyle = '#4bc43c';
+         contextKyle.fillStyle = '#4bc43c';
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.arc(122, 171, 9, 0 * Math.PI, 2 * Math.PI);
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 0.13;
+         contextKyle.strokeStyle = 'black';
+         contextKyle.arc(116, 169, 4, 0 * Math.PI, 2 * Math.PI);
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.arc(32, 166, 4, 0 * Math.PI, 2 * Math.PI);
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.strokeStyle = 'black';
+         contextKyle.fillStyle = 'black';
+         contextKyle.moveTo(34, 162);
+
+         contextKyle.lineTo(38, 148);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.moveTo(113, 165);
+         contextKyle.lineTo(111, 150);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.strokeStyle = '#4ec33e';
+         contextKyle.ellipse(135, 83, 28, 11, 1.5 * Math.PI / 4, 0, 2 * Math.PI);
+         contextKyle.fillStyle = '#4ec33e';
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.ellipse(15, 81, 28, 11, 1.60 * Math.PI, 0, 2 * Math.PI);
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 1;
+         contextKyle.moveTo(18, 60);
+         contextKyle.lineTo(18, 22);
+         contextKyle.quadraticCurveTo(20, 16, 25, 14);
+         contextKyle.lineTo(126, 14);
+         contextKyle.quadraticCurveTo(136, 16, 133, 35);
+         contextKyle.lineTo(133, 60);
+         contextKyle.strokeStyle = '#4ec23f';
+         contextKyle.fillStyle = '#4ec23f';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.moveTo(26, 36);
+         contextKyle.lineTo(126, 36);
+         contextKyle.lineTo(126, 67);
+         contextKyle.quadraticCurveTo(76, 54, 26, 67);
+         contextKyle.strokeStyle = '#00ad51';
+         contextKyle.fillStyle = '#00ad51';
+         contextKyle.fill();
+         contextKyle.stroke();
+
+         contextKyle.beginPath();
+         contextKyle.lineWidth = 2;
+         contextKyle.strokeStyle = '#135d34';
+         contextKyle.fillStyle = '#135d34';
+         contextKyle.moveTo(109, 64);
+         contextKyle.lineTo(90, 56);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+         contextKyle.beginPath();
+         contextKyle.moveTo(43, 65);
+         contextKyle.lineTo(58, 55);
+         contextKyle.closePath();
+         contextKyle.fill();
+         contextKyle.stroke();
+
+
+
+      </script>
+   </canvas>
+
+   <svg xmlns="https://www.w3.org/2000/svg" width="205" height="200">
+
+      <polyline points="20,171 28,194 176,194 184,170 140,175 111, 187" fill="#83462a" stroke-width="0" />
+
+      <circle r="10" cx="182" cy="164" fill="#ff2045" stroke-width="0" />
+
+      <polyline
+         points="8,126 19,110 31,101 171,103 182,105 190,117 195,122 195,150 192,165 182,176 162,178 155,178 145,178 130,182 124,185 111,187 81,187 61,187 51,185 31,180 20,172 17,170"
+         fill="#ff2045" stroke="#ff2045" stroke-width="1" />
+
+      <ellipse rx="75" ry="62" cx="101" cy="79" fill="#fdeec5" stroke-width="0" />
+      <path fill='#00b9c5' stroke="#00b9c5" d="M26 72 C 47 -2, 140 10, 164 46 S 164 44, 78 52 " />
+      <ellipse rx="18" ry="22" cx="86" cy="80" transform="rotate(30 90 79)" fill="white" rotare='40' stroke-width="0" />
+      <ellipse rx="18" ry="22" cx="62" cy="60" transform="rotate(145 90 79)" fill="white" rotare='40'
+         stroke-width="0" />
+      <circle r="2" cx="93" cy="77" fill="black" stroke-width="0" />
+      <circle r="2" cx="116" cy="77" fill="black" stroke-width="0" />
+
+      <polyline points="45,113 65,126 75, 130, 90, 133, 100, 134, 114, 134, 140, 124, 164, 108" fill="none"
+         stroke="black" stroke-width="0.5" />
+      <polyline points="94,127 105,129, 120, 127" fill="none" stroke="black" stroke-width="0.4" />
+      <polyline points="90,115 94,113, 117,114 111,126, 99,125" stroke="black" stroke-width="0" />
+      <polyline points="97,116 101,116" fill="none" stroke="white" stroke-width="2.2" />
+      <polyline points="102,116 107,116" fill="none" stroke="white" stroke-width="2.2" />
+      <polyline points="108,116 114,116" fill="none" stroke="white" stroke-width="2.4" />
+
+      <polyline points="112,141 112,164 111,187" fill="none" stroke="black" stroke-width="0.5" />
+      <ellipse rx="1.6" ry="2.8" cx="106" cy="144" fill="balck" rotare='40' stroke-width="0" />
+      <ellipse rx="1.6" ry="2.8" cx="108" cy="162" fill="balck" rotare='40' stroke-width="0" />
+      <ellipse rx="1.6" ry="2.8" cx="106" cy="179" fill="balck" rotare='40' stroke-width="0" />
+
+      <ellipse rx="12" ry="15" cx="13" cy="140" transform="rotate(130 13 140)" fill="#fedd1d" rotare='40'
+         stroke-width="0" />
+      <circle r="6" cx="33" cy="147" fill="#fedd1d" stroke-width="0" />
+      <polyline points="15,128 35,138 38,143 35,153 18,153" fill="#fedd1d" />
+
+
+      <circle r="4" cx="172" cy="143" fill="#fedd1d" stroke-width="0" />
+      <circle r="6" cx="195" cy="128" fill="#fedd1d" stroke-width="0" />
+      <circle r="4" cx="192" cy="148" fill="#fedd1d" stroke-width="0" />
+      <polyline points="172,139 175,130 180,123 196,122 201,128 204,145 194,151 188,151 174,146" fill="#fee01c" />
+
+      <polyline points="23,197 23,194 60,190 98,192 102, 194 119,191 130,190 145,190, 170,192 180, 196" fill="#322e3b"
+         stroke="#322e3b" stroke-width="0.5" />
+
+      <polyline
+         points="77,20 82,16 85,14 90,12 98,12 102,10 105,10 110,12 114,14 120,16 121,18 119,22 110,23 105,24 102,24 99,22 95,24 91,24 90,20 85,24 78,24"
+         fill="#fce11b" stroke="#fce11b" stroke-width="0.5" />
+      <polyline
+         points="27,72 50,62 79,52 100,49 130,51 140,53 160,57 175,63 176,68 160,63 150,61 140,58 130,57 110,55 100,55 90,56 80,57 70,60 50,68 40, 72 30,76 26,77 27,72"
+         fill="#f0e12c" stroke="#f0e12c" stroke-width="0.5" />
+   </svg>
+   <svg xmlns="https://www.w3.org/2000/svg" width="140" height="200">
+      <rect x="0" y="0" width="140" height="200" fill="skyblue" stroke-width="0" />
+      <circle r="68" cx="69" cy="79" fill="#ff7f00" stroke-width="0" />
+      <ellipse rx="49" ry="43" cx="67" cy="84" fill="none" rotare='40' stroke-width="1" stroke="black" />
+
+      <path stroke="none" fill="#754221" d="M74,42 Q107,42 107,81 T70,118  " stroke-width="1" />
+      <path stroke="none" fill="#754221" d="M64,41 Q25,42 26,81 T68,117  " stroke-width="1" />
+      <path stroke="none" fill="#754221" d="M30,56 Q70,36 88,44 " stroke-width="1" />
+      <path stroke="none" fill="#754221" d="M35,108 Q9,75 36,50  " stroke-width=" 1" />
+      <path stroke="none" fill="#754221" d="M100,53 Q109,60 109,81 T94,113  " stroke-width="1" />
+      <path stroke="none" fill="#754221" d="M40,109 Q69,127 95,110  " stroke-width=" 1" />
+      <path stroke="black" fill="#fde1b2" d="M69,117 Q12,86 59,45 " stroke-width="1" />
+      <path stroke="none" fill="#fde1b2" d="M78,109 C36,113 36,54 69,40 " stroke-width="1" />
+      <path stroke="black" fill="#fde1b2" d="M69,117 Q119,82 68,41 " stroke-width="1" />
+      <path d="M86,100 C52,85 72,53 86,61 " stroke="none" fill="white" stroke-width="2" />
+      <path d="M86,99 C96,94 96,64 83,61  " stroke="none" fill="white" stroke-width="2" />
+      <path d="M45,98 C83,88 69,51 46,59 " stroke="none" fill="white" stroke-width="2" />
+      <path d="M46,98 Q30,79 47,59  " stroke="none" fill="white" stroke-width="2" />
+      <circle r="2" cx="81" cy="77" fill="black" stroke-width="0" />
+      <circle r="2" cx="81" cy="77" fill="black" stroke-width="0" />
+      <circle r="2" cx="56" cy="77" fill="black" stroke-width="0" />
+      <polyline points="66,117 60,135 58,137 " fill="none" stroke-width="1" stroke="black" />
+      <polyline points="66,117 68,140 70,144 " fill="none" stroke-width="1" stroke="black" />
+      <svg xmlns="https://www.w3.org/2000/svg" width="140" height="200">
+         <polyline
+            points="10,160 12,150 14,145 16,140 22,130 24,126 114,126 116,130 119,135 121,140 123,145 125,150 126,155 127,165 120,177 115,177 115,180 108,180 108,193 29,193 29,177 23,177 23,170 10,160"
+            fill="#f66a01" stroke-width="1" stroke="#f66a01" />
+
+         <circle r="68" cx="69" cy="79" fill="#f46500" stroke="none" />
+
+
+         <path fill="#754221" d="M74,42 Q107,42 107,81 T70,118" stroke="none" />
+         <path fill="#754221" d="M64,41 Q25,42 26,81 T68,117" stroke="none" />
+         <path fill="#754221" d="M30,56 Q60,36 88,44" stroke="none" />
+         <path fill="#754221" d="M35,108 Q9,75 36,50" stroke-width=" 0" />
+         <path fill="#754221" d="M100,53 Q109,60 109,81 T94,113" stroke="none" />
+         <path fill="#754221" d="M40,109 Q69,127 95,110" stroke="none" />
+         <path fill="#fde1b2" d="M69,117 Q12,86 59,45" stroke="none" />
+         <path fill="#fde1b2" d="M78,109 C36,113 36,54 69,40" stroke="none" />
+         <path fill="#fde1b2" d="M69,117 Q119,82 68,41" stroke="none" />
+         <path d="M86,100 C52,85 72,53 86,61 " stroke="none" fill="white" stroke="none" />
+         <path d="M86,99 C96,94 96,64 83,61 " stroke="none" fill="white" stroke="none" />
+         <path d="M45,98 C83,88 69,51 46,59 " stroke="none" fill="white" stroke="none" />
+         <path d="M46,98 Q30,79 47,59 " stroke="none" fill="white" stroke="none" />
+         <circle r="2" cx="81" cy="77" fill="black" stroke="none" />
+         <circle r="2" cx="81" cy="77" fill="black" stroke="none" />
+         <circle r="2" cx="56" cy="77" fill="black" stroke="none" />
+         <polyline points="66,117 60,135 58,137 " fill="none" stroke-width="1" stroke="black" />
+         <polyline points="66,117 68,140 70,144 " fill="none" stroke-width="1" stroke="black" />
+
+         <ellipse rx="49" ry="43" cx="67" cy="84" fill="none" stroke-width="1" stroke="black" />
+
+         <polyline points="25,194 111,194" fill="none" stroke-width="3.5" stroke="#4e1300" />
+         <polyline points="69,148 68,183" fill="none" stroke-width="0.5" stroke="#4e1300" />
+         <polyline points="24,163 27,153" fill="none" stroke-width="0.5" stroke="black" />
+         <polyline points="109,164 108,153" fill="none" stroke-width="0.5" stroke="black" />
+
+         <circle r="10" cx="14" cy="168" fill="#7c4220" />
+         <circle r="4" cx="21" cy="165" fill="#7c4220" stroke-width="0.3" stroke="#4e1300" />
+         <circle r="10" cx="121" cy="170" fill="#7c4220" stroke="none" />
+         <circle r="4" cx="113" cy="166" fill="#7c4220" stroke-width="0.3" stroke="#4e1300" />
+
+         <polyline points="72,107 70,115 67,114 67,100" fill="#fee1b2" stroke="none" />
+      </svg </svg>
+
+</body>
+
+</html>
